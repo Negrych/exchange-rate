@@ -1,0 +1,33 @@
+.container {
+  width: 800px;
+  height: 400px;
+  margin: 50px auto;
+  background: cadetblue;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  input {
+    text-align: center;
+    background: #5b12ec;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+  }
+  form {
+    button {
+      display: block;
+      margin: 30px auto;
+      padding: 20px 50px;
+      background: #b05514;
+      border-radius: 20px;
+      border: none;
+      font-size: 20px;
+    }
+    button:hover {
+      background: green;
+      cursor: pointer;
+    }
+  }
+}

@@ -4,3 +4,7 @@ export interface IData {
   buy: string;
   sale: string;
 }
+export interface IForm {
+  firstInput: string;
+  secondInput: string;
+}
