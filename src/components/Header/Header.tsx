@@ -5,7 +5,6 @@ import { useAppSelector } from "../../hooks/redux";
 import headerStyle from "./headerStyle.module.scss";
 const Header = () => {
   const { data } = useAppSelector((state) => state.dataReducer);
-  console.log(data);
   return (
     <div className={headerStyle.container}>
       {data &&
